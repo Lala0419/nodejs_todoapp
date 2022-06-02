@@ -4,11 +4,13 @@ const taskRoute = require("./routes/tasks")
 const connectDB = require("./db/connect")
 require("dotenv").config()
 
+const PORT = process.env.PORT || 5000;
+
+
 app.use(express.json());
 app.use(express.static("./public"))
 
 
-const PORT = 5000;
 
 
 // setting rotine 
@@ -18,7 +20,7 @@ app.use("/api/v1/tasks", taskRoute)
 const start = async()=>{
     try{
         await connectDB(process.env.MONGO_URL2 || process.env.MONGO_URL);
-        app.listen(process.env.PORT || PORT, console.log("server is running...!"));
+        app.listen(PORT, console.log("server is running...!"));
     } catch (err) {
         console.log(err)
     }
