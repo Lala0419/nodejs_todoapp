@@ -6,7 +6,7 @@
   </a>
   <br>
   <br>
-  **Link to project:** https://todoapp-with-nodejs-mongodb.herokuapp.com/
+  <strong>Link to project:</strong> https://todoapp-with-nodejs-mongodb.herokuapp.com/
   </div>
 
  
