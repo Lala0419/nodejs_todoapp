@@ -5,7 +5,7 @@ const TaskSchema = new mongoose.Schema({
         type: String,
         required: [true, "type your task here"],
         trim: true,
-        maxlength: [40, "type in 40 alphabets"],
+        maxlength: [80, "type in 80 alphabets"],
     },
     completed: {
         type: Boolean,

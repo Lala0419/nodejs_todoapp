@@ -63,7 +63,7 @@ formDOM.addEventListener("submit", async(event) => {
         formAlertDOM.classList.add('text-success') 
     } catch (err) {
         formAlertDOM.style.display="block"; 
-        formAlertDOM.innerHTML = 'please write in maximum 40 letters'
+        formAlertDOM.innerHTML = 'please write in maximum 80 letters'
     }
     setTimeout(()=>{
         formAlertDOM.style.display="none";
