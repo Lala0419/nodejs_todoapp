@@ -10,7 +10,7 @@
 	
 An app to make your personal ToDo list get going!
 
- <strong>Link to project:</strong> [Todo List App](https://todoapp-with-nodejs-mongodb.herokuapp.com/)
+ <strong>Link to project:</strong> [Todo List App](https://my-todo-app.up.railway.app/)
 
 </div>
 
